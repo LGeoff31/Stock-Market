@@ -93,7 +93,13 @@ export default function Home() {
         </Select>
       </FormControl>
       <Grid
-        sx={{ marginTop: "2rem", display: "flex", justifyContent: "center" }}
+        sx={{
+          marginTop: "2rem",
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+          height: "400px",
+        }}
       >
         <Line
           data={chartData}
